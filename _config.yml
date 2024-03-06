@@ -1,8 +1,7 @@
-title: Larry Chen # your name (or website title) here
-logo: "images/bio_photo.png" # your photo (or logo) here
-description: > # your text below (remove <br> elements if you don't need line breaks)
-  Mucis Lover  
-  <br><br><br>
+title: Larry Chen
+logo: "images/bio_photo.png"
+description: >
+  Mucis Lover
+  <br><br>
   <a href="https://www.linkedin.com/in/larrychencpa/">View My LinkedIn Profile</a>
-  
 theme: jekyll-theme-minimal
