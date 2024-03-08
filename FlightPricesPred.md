@@ -1,5 +1,7 @@
 # Predicting Flight Prices using PySpark’s MLlib
 
+![Flight Fare Prediction Using Pyspark Mllib Project Banner](images/flight-price-pred.gif)
+
 ## Goal:
 The goal of the analysis is to predict flight prices with different regression models using Spark’s MLLib.  We chose the topic, “Predicting Flight Prices by Airline, Source City, Destination City, Class and Others Using Multiple Machine Learning Models” 
 
