@@ -11,8 +11,8 @@ We picked this topic because the data was good and could tell us a lot through d
 
 ## EDA - Key Insights
 <img src="https://github.com/LarryChenCode/flight_fare_prediction_using_pyspark_mllib/blob/7fd0b091704f8fb581765d942ef189fcc4efbce8/periodheatmap.png" width="700" />
-1. Early Booking Benefits: There is a clear trend that shows prices are generally lower when the tickets are booked well in advance. For instance, across all departure times, the prices are visibly lower on the right side of the heatmap, which corresponds to a higher number of days left before departure.
 
+1. Early Booking Benefits: There is a clear trend that shows prices are generally lower when the tickets are booked well in advance. For instance, across all departure times, the prices are visibly lower on the right side of the heatmap, which corresponds to a higher number of days left before departure.
 2. Time of Day Price Variation: Different times of day have different pricing patterns. Evening and night tend to have higher average prices when booked last minute. However, as the days left increase, the prices for these times decrease. This suggests that for cheaper fares, one should avoid booking evening or night flights at the last minute.
 
 Code for the Heatmap:
@@ -50,7 +50,6 @@ plt.show()
 <img src="https://github.com/LarryChenCode/flight_fare_prediction_using_pyspark_mllib/blob/e5e07f9925b8a89599d2154a22150969feaa2a85/PricevsDuration.png" width="1000" />
 
 1. Price Distribution by Airline: Each airline has a different price range and distribution. For instance, Vistara appears to have a relatively broad price range, while airlines like IndiGo, SpiceJet, AirAsia show a denser concentration of points at the lower end of the price scale, indicating a larger number of more affordable flights.
-
 2. Flight Duration: There is a visible increase in price with the duration of the flight for some airlines, which is expected as longer flights generally cost more. However, this trend is not uniform across all airlines. Some, like AirAsia and IndiGo, seem to offer more consistently priced tickets across different flight durations.
 
 Code for the interactive scatter plot:
