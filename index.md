@@ -1,4 +1,4 @@
-# Welcome to My Portfolio
+# Welcome to Larry Chen's Portfolio
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-63M4ERY6GF"></script>
