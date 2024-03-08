@@ -17,7 +17,7 @@
 
 #### [Web Scraping Project](/WebScraping.md)
 <img src="images/web-scraping/web-scraping.gif"/>
-_Check the price from the web automatically!_
+_Check the price automatically!_
 
 ---
 #### [Flight Fare Prediction Using Pyspark Mllib Project](/FlightPricesPred.md)
