@@ -14,7 +14,7 @@
 
 ### Learn About My Projects
 
-#### [Web Scraping Project](/bank)
+#### [Web Scraping Project](/WebScraping)
 <img src="images/web-scraping.gif"/>
 Scrape the price from the web!
 
