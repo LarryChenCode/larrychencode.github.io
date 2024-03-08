@@ -14,7 +14,7 @@
 
 ### Learn About My Projects
 
-#### [Web Scraping Project](/WebScraping)
+#### [Web Scraping Project](/WebScraping.md)
 <img src="images/web-scraping.gif"/>
 Scrape the price from the web!
 
