@@ -6,6 +6,9 @@ The goal of the analysis is to predict flight prices with different regression m
 ## Define the Business problem:
 We picked this topic because the data was good and could tell us a lot through different machine learning techniques. For example, we could figure out which airlines might charge more and which cities might have more flight delays. This information is useful for companies wanting to better their services and for travelers wanting to avoid delays. We built and tested several models using the data's details, then chose the best one based on how well it predicted outcomes.
 
+## Dateset:
+The dataset “[Flight Price Prediction](https://www.kaggle.com/datasets/shubhambathwal/flight-price-prediction/data)” from Kaggle. Dataset contains information about flight booking options from the website Easemytrip for flight travel between India's top 6 metro cities. There are 300261 datapoints and 11 features in the cleaned dataset.
+
 ## Workflow:
 <img src="https://github.com/LarryChenCode/flight_fare_prediction_using_pyspark_mllib/blob/main/WORKFLOW.png" width="1000" />
 
