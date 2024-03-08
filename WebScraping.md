@@ -1,5 +1,3 @@
-# kindle-price-web-scraper
-
 # Web Scraping Amazon Kindle Prices
 
 ![Web Scraping Project Banner](images/web-scraping.gif)
