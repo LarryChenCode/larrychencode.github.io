@@ -17,12 +17,12 @@
 
 #### [Web Scraping Project](/WebScraping.md)
 <img src="images/web-scraping.gif"/>
-_Scrape the price from the web!_
+*Scrape the price from the web!*
 
 ---
 #### [Flight Fare Prediction Using Pyspark Mllib Project](/FlightPricesPred.md)
 <img src="images/flight-price-pred.gif"/>
-_Don't fly in the evening or night!_
+*Don't fly in the evening or night!*
 
 ---
 
