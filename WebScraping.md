@@ -1,6 +1,6 @@
 # Web Scraping Amazon Kindle Prices
 
-![Web Scraping Project Banner](images/web-scraping.gif)
+![Web Scraping Project Banner](images/web-scraping/web-scraping.gif)
 
 In this project, I demonstrate how to perform web scraping on Amazon to track the price of Kindle books. This task is accomplished using a variety of Python libraries to efficiently fetch data, parse HTML, and automate the monitoring process.
 
