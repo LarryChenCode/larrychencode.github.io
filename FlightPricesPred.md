@@ -7,10 +7,10 @@ The goal of the analysis is to predict flight prices with different regression m
 We picked this topic because the data was good and could tell us a lot through different machine learning techniques. For example, we could figure out which airlines might charge more and which cities might have more flight delays. This information is useful for companies wanting to better their services and for travelers wanting to avoid delays. We built and tested several models using the data's details, then chose the best one based on how well it predicted outcomes.
 
 ## Workflow:
-<img src="https://github.com/LarryChenCode/flight_fare_prediction_using_pyspark_mllib/blob/main/WORKFLOW.png" width="700" />
+<img src="https://github.com/LarryChenCode/flight_fare_prediction_using_pyspark_mllib/blob/main/WORKFLOW.png" width="1000" />
 
 ## EDA - Key Insights
-<img src="https://github.com/LarryChenCode/flight_fare_prediction_using_pyspark_mllib/blob/7fd0b091704f8fb581765d942ef189fcc4efbce8/periodheatmap.png" width="700" />
+<img src="https://github.com/LarryChenCode/flight_fare_prediction_using_pyspark_mllib/blob/7fd0b091704f8fb581765d942ef189fcc4efbce8/periodheatmap.png" width="1000" />
 
 1. Early Booking Benefits: There is a clear trend that shows prices are generally lower when the tickets are booked well in advance. For instance, across all departure times, the prices are visibly lower on the right side of the heatmap, which corresponds to a higher number of days left before departure.
 2. Time of Day Price Variation: Different times of day have different pricing patterns. Evening and night tend to have higher average prices when booked last minute. However, as the days left increase, the prices for these times decrease. This suggests that for cheaper fares, one should avoid booking evening or night flights at the last minute.
@@ -84,4 +84,4 @@ Price Prediction Pattern: The model exhibits a linear correlation between actual
 ## Conclusion:
 The Gradient Boosting Regressor model shows a high degree of accuracy in predicting flight prices within the considered feature set. The excellent R² score coupled with a low RMSE and MAE reflects the model's effectiveness. While the model's predictions are mostly linear up to a certain price point, a slight deviation for higher-priced flights is noted, suggesting an area for further investigation and potential refinement of the model.
 
-### Check out my code on [Github](https://github.com/LarryChenCode/flight_fare_prediction_using_pyspark_mllib)
+### Check out more detail on [Github](https://github.com/LarryChenCode/flight_fare_prediction_using_pyspark_mllib)
