@@ -15,7 +15,7 @@
 
 ### Learn About My Projects
 
-#### [Web Scraping Project](https://github.com/LarryChenCode/kindle-price-web-scraper/blob/b3a959e85cd804dd674c68310de67274b75bf5fc/README.md)
+#### [Web Scraping Project](/WebScraping.md)
 <img src="images/web-scraping.gif"/>
 Scrape the price from the web!
 
