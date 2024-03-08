@@ -21,7 +21,7 @@ Scrape the price from the web!
 
 ---
 
-#### [Web Scraping Project](/FlightPricesPred.md)
+#### [Flight Fare Prediction Using Pyspark Mllib Project](/FlightPricesPred.md)
 <img src="images/flight-price-pred.gif"/>
 Don't fly in the evening or night!
 
