@@ -23,7 +23,7 @@ Nintendo on the Wii platform has a towering lead over other combinations.
 
 #### Games Sold by year
 <img src="images/video-game/Games Sold by year.png" width="1000" />
-a significant peak in sales around the year 2005. This suggests a particularly successful period for the gaming industry, with interest or production sharply decreasing in subsequent years.
+A significant peak in sales around the year 2005. This suggests a particularly successful period for the gaming industry, with interest or production sharply decreasing in subsequent years.
 
 ### Ten years with the highest average critic score
 SQL Code:
@@ -57,6 +57,6 @@ Table:
 
 #### Critic Score vs User Score
 <img src="images/video-game/Critic Score vs User Score.png" width="1000" />
-The graph shows a sharp decline in this difference in the early years, reaching a more stable level in the middle years before starting to rise again. This could indicate that initially, there was a large discrepancy between critic and user opinions, which then aligned more closely over time. However, the trend towards the end suggests that the gap between critic and user opinions is widening again. This could suggest a divergence in the expectations or satisfaction levels of critics versus users in more recent years.
+The graph shows a sharp decline in this difference in the early years, reaching a more stable level in the middle years before starting to rise again. This could indicate that initially, there was a large discrepancy between critic and user opinions, which then aligned more closely over time. However, the trend towards the end suggests that the gap between critic and user opinions is widening again. **This could suggest a divergence in the expectations or satisfaction levels of critics versus users in more recent years.**
 
 #### The project was completed on [Datacamp](https://app.datacamp.com/learn/projects/2013) 
