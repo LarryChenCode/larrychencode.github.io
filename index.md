@@ -25,7 +25,7 @@ _Check the price automatically!_
 _Don't fly in the evening or at night!_
 
 ---
-#### [When was the Golden Era of Video Games Using SQL](/video-games.md)
+#### [Golden Era of Video Games Analysis Using SQL](/video-games.md)
 <img src="images/video-game/VIdeo-Games-Golden-Era.gif"/>
 _Nintendo dominates the market_
 
