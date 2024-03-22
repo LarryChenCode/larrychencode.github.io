@@ -29,10 +29,5 @@ _Don't fly in the evening or at night!_
 _Nintendo dominates the market!_
 
 ---
-#### [Golden Era of Video Games Analysis Using SQL](/tableau_test.md)
-<img src="images/tableau_test/tableau_test.png"/>
-_Check my latest tableau dashboard_
-
----
 
 
