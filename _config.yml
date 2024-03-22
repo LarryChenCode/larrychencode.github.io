@@ -6,6 +6,5 @@ description: >
   <a href="https://www.linkedin.com/in/larrychencpa/">View My LinkedIn Profile</a>
 
 theme: jekyll-theme-minimal
-plugins:
-  - jekyll-tabs
+plugins: jekyll-tabs
 
