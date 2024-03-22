@@ -12,12 +12,6 @@
 
 ---
 
-## Results {.tabset}
-
-### Plots
-
-### Plots
-
 ### Learn About My Projects
 
 #### [Web Scraping Project Using Python](/WebScraping.md)
