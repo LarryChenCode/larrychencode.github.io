@@ -2,24 +2,24 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Data Scinetist | Python, SQL, Tableau
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>🌟 Exploring the infinite possibilities of data to transform the world 🌍 | Data Scientist & Nature Enthusiast 📊🌲</p>
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello! I’m Larry Chen, a data scientist combining a strong background in accounting and finance with advanced expertise in data science. My skills span Python, R, MySQL, Tableau, and areas like Machine Learning, Natural Language Processing, and Cloud Computing. With professional experiences ranging from predictive analytics at Caktus AI to data-driven strategies at JFJ Productions, I’ve crafted AI solutions that boost revenue and enhance engagement.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My academic path includes a BBA from Soochow University, an MBA from USC, and ongoing master's studies at the University of Cincinnati. I'm also a CPA, Alteryx Certified, and pursuing certifications like CFA Level 2, CMA, and PMP, continually advancing in data science innovation.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+In 2020, I moved to the U.S. from Taiwan to further harness data for business transformation. Outside the office, my wife and I enjoy exploring the U.S. through road trips, appreciating America’s natural beauty.
+
+If you're looking to leverage data for impactful solutions, let’s connect and drive success together!

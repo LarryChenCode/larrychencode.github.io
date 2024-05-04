@@ -2,15 +2,11 @@
 layout: page
 title: Predicting Flight Prices using PySpark’s MLlib
 description: with background image
-img: assets/img/fligh-price-pred/flight-price-pred.gif
+img: assets\img\fligh-price-pred\flight-price-pred.gif
 importance: 1
 category: Data Science
 related_publications: false
 ---
-
-# Predicting Flight Prices using PySpark’s MLlib
-
-![Flight Fare Prediction Using Pyspark Mllib Project Banner](assets/img/fligh-price-pred/flight-price-pred.gif)
 
 ## Goal:
 The goal of the analysis is to predict flight prices with different regression models using Spark’s MLLib.  We chose the topic, “Predicting Flight Prices by Airline, Source City, Destination City, Class and Others Using Multiple Machine Learning Models” 
@@ -22,10 +18,10 @@ We picked this topic because the data was good and could tell us a lot through d
 The dataset “[Flight Price Prediction](https://www.kaggle.com/datasets/shubhambathwal/flight-price-prediction/data)” is used from Kaggle. Dataset contains information about flight booking options from the website Easemytrip for flight travel between India's top 6 metro cities. There are 300261 datapoints and 11 features in the cleaned dataset.
 
 ## Workflow:
-<img src="assets/img/fligh-price-pred/WORKFLOW.png" width="1000" />
+<img src="assets\img\fligh-price-pred\WORKFLOW.png" width="1000" />
 
 ## EDA - Key Insights
-<img src="assets/img/fligh-price-pred/periodheatmap.png" width="1000" />
+<img src="assets\img\fligh-price-pred\periodheatmap.png" width="1000" />
 
 1. Early Booking Benefits: There is a clear trend that shows prices are generally lower when the tickets are booked well in advance. For instance, across all departure times, the prices are visibly lower on the right side of the heatmap, which corresponds to a higher number of days left before departure.
 2. Time of Day Price Variation: Different times of day have different pricing patterns. Evening and night tend to have higher average prices when booked last minute. However, as the days left increase, the prices for these times decrease. This suggests that for cheaper fares, one should avoid booking evening or night flights at the last minute.
@@ -62,7 +58,7 @@ ax.set_yticklabels(ax.get_yticklabels(), rotation=0)
 plt.show()
 ```
 
-<img src="assets/img/fligh-price-pred/PricevsDuration.png" width="1000" />
+<img src="assets\img\fligh-price-pred\PricevsDuration.png" width="1000" />
 
 1. Price Distribution by Airline: Each airline has a different price range and distribution. For instance, Vistara appears to have a relatively broad price range, while airlines like IndiGo, SpiceJet, AirAsia show a denser concentration of points at the lower end of the price scale, indicating a larger number of more affordable flights.
 2. Flight Duration: There is a visible increase in price with the duration of the flight for some airlines, which is expected as longer flights generally cost more. However, this trend is not uniform across all airlines. Some, like AirAsia and IndiGo, seem to offer more consistently priced tickets across different flight durations.
@@ -84,7 +80,7 @@ fig.show()
 ## Model Performance Analysis:
 Price Prediction Pattern: The model exhibits a linear correlation between actual and predicted flight prices, consistent up to approximately INR 70,000. However, there might be deviations beyond this price range.
 
-<img src="assets/img/fligh-price-pred/prediction vs actual.png" width="700" />
+<img src="assets\img\fligh-price-pred\prediction vs actual.png" width="700" />
 
 ## Accuracy Metrics:
  - RMSE (Root Mean Square Error): 1520.00 - Indicates a relatively small average prediction error, suggesting good model precision.
