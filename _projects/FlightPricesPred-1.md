@@ -1,12 +1,12 @@
----
+<!-- ---
 layout: page
 title: Flight Prices Predication
 description: Predicting Flight Prices using PySpark’s MLlib
 img: /assets/img/fligh-price-pred/flight-price-pred.gif
-importance: 1
-category: Data Science
+importance: 
+category: 
 related_publications: false
----
+--- -->
 
 ## Goal:
 The goal of the analysis is to predict flight prices with different regression models using Spark’s MLLib.  We chose the topic, “Predicting Flight Prices by Airline, Source City, Destination City, Class and Others Using Multiple Machine Learning Models” 
@@ -18,29 +18,16 @@ We picked this topic because the data was good and could tell us a lot through d
 The dataset “[Flight Price Prediction](https://www.kaggle.com/datasets/shubhambathwal/flight-price-prediction/data)” is used from Kaggle. Dataset contains information about flight booking options from the website Easemytrip for flight travel between India's top 6 metro cities. There are 300261 datapoints and 11 features in the cleaned dataset.
 
 ## Workflow:
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/fligh-price-pred/workflow.png" title="project wrokflow" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Project workflow
-</div>
+<img src="assets/img/fligh-price-pred/WORKFLOW.png" width="1000" />
 
 ## EDA - Key Insights
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/fligh-price-pred/period-heatmap.png" title="period heatmap" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Headmap
-</div>
+<img src="assets/img/fligh-price-pred/periodheatmap.png" width="1000" />
 
 1. Early Booking Benefits: There is a clear trend that shows prices are generally lower when the tickets are booked well in advance. For instance, across all departure times, the prices are visibly lower on the right side of the heatmap, which corresponds to a higher number of days left before departure.
 2. Time of Day Price Variation: Different times of day have different pricing patterns. Evening and night tend to have higher average prices when booked last minute. However, as the days left increase, the prices for these times decrease. This suggests that for cheaper fares, one should avoid booking evening or night flights at the last minute.
 
 Code for the Heatmap:
+
 ```Python
 from pandas.api.types import CategoricalDtype
 
@@ -71,11 +58,7 @@ ax.set_yticklabels(ax.get_yticklabels(), rotation=0)
 plt.show()
 ```
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/fligh-price-pred/price-vs-duration.png" title="price vs duration" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+<img src="assets/img/fligh-price-pred/PricevsDuration.png" width="1000" />
 
 1. Price Distribution by Airline: Each airline has a different price range and distribution. For instance, Vistara appears to have a relatively broad price range, while airlines like IndiGo, SpiceJet, AirAsia show a denser concentration of points at the lower end of the price scale, indicating a larger number of more affordable flights.
 2. Flight Duration: There is a visible increase in price with the duration of the flight for some airlines, which is expected as longer flights generally cost more. However, this trend is not uniform across all airlines. Some, like AirAsia and IndiGo, seem to offer more consistently priced tickets across different flight durations.
@@ -97,11 +80,7 @@ fig.show()
 ## Model Performance Analysis:
 Price Prediction Pattern: The model exhibits a linear correlation between actual and predicted flight prices, consistent up to approximately INR 70,000. However, there might be deviations beyond this price range.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/fligh-price-pred/prediction-vs-actual.png" title="price vs duration" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+<img src="assets/img/fligh-price-pred/prediction-vs-actual.png" width="700" />
 
 ## Accuracy Metrics:
  - RMSE (Root Mean Square Error): 1520.00 - Indicates a relatively small average prediction error, suggesting good model precision.
@@ -116,4 +95,4 @@ Price Prediction Pattern: The model exhibits a linear correlation between actual
 ## Conclusion:
 The Gradient Boosting Regressor model shows a high degree of accuracy in predicting flight prices within the considered feature set. The excellent R² score coupled with a low RMSE and MAE reflects the model's effectiveness. While the model's predictions are mostly linear up to a certain price point, a slight deviation for higher-priced flights is noted, suggesting an area for further investigation and potential refinement of the model.
 
-Check out more detail on [Github](https://github.com/LarryChenCode/flight_fare_prediction_using_pyspark_mllib)
+### Check out more detail on [Github](https://github.com/LarryChenCode/flight_fare_prediction_using_pyspark_mllib)
