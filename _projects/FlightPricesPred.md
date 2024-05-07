@@ -8,6 +8,12 @@ category: Data Science
 related_publications: false
 ---
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="/assets/img/fligh-price-pred/flight-price-pred.gif" title="project wrokflow" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 ## Goal:
 The goal of the analysis is to predict flight prices with different regression models using Spark’s MLLib.  We chose the topic, “Predicting Flight Prices by Airline, Source City, Destination City, Class and Others Using Multiple Machine Learning Models” 
 

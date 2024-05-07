@@ -1,16 +1,18 @@
 ---
 layout: page
 title: Web Scraping Amazon Kindle Prices
-description: with background image
-img: assets/img/web-scraping/web-scraping.gif
+description: track the things you like when their price drop
+img: /assets/img/web-scraping/web-scraping.gif
 importance: 3
 category: Data Science
 related_publications: false
 ---
 
-# Web Scraping Amazon Kindle Prices
-
-![Web Scraping Project Banner](assets/img/web-scraping/web-scraping.gif)
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="/assets/img/web-scraping/web-scraping.gif" title="cover" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 In this project, I demonstrate how to perform web scraping on Amazon to track the price of Kindle books. This task is accomplished using a variety of Python libraries to efficiently fetch data, parse HTML, and automate the monitoring process.
 

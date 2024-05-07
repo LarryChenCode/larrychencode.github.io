@@ -1,16 +1,18 @@
 ---
 layout: page
 title: SQL Project on Video Games Analysis
-description: with background image
-img: assets/img/video-game/VIdeo-Games-Golden-Era.gif
+description: When Was the Golden Era of Video Games?
+img: /assets/img/video-game/video-games-golden-era.gif
 importance: 2
+tags: SQL
 category: Data Science
-related_publications: false
 ---
 
-# When Was the Golden Era of Video Games?
-
-![VIDEO GAMES GOLDEN ERA](assets/img/video-game/VIdeo-Games-Golden-Era.gif)
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="/assets/img/video-game/video-games-golden-era.gif" title="cover" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 ## Introduction to the SQL Project on Video Games Analysis
 Dive into the $300 billion gaming market to explore if video games are improving or if their golden age has passed. This SQL project involves analyzing scores and sales of the top 400 video games since 1977 to 2017. Identify peak years in gaming popularity and examine sales trends by joining datasets and applying set theory, filtering, grouping, and sorting techniques. Gear up for a data-driven journey through gaming history!
@@ -24,15 +26,28 @@ FROM game_sales
 ORDER BY games_sold DESC
 LIMIT 10;
 ```
+
 Table:
-<img src="assets/img/video-game/Best Selling Games.png" width="1000" />
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="/assets/img/video-game/best-selling-games.png" title="best selling" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 #### Games Sold by Platform & Publisher
-<img src="assets/img/video-game/Games Sold.png" width="1000" />
-Nintendo on the Wii platform has a towering lead over other combinations. 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="/assets/img/video-game/games-sold.png" title="games sold" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+Nintendo on the Wii platform has a towering lead over other combinations.
 
 #### Games Sold by year
-<img src="assets/img/video-game/Games Sold by year.png" width="1000" />
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="/assets/img/video-game/games-sold-by-year.png" title="games sold by year" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 A significant peak in sales around the year 2005. This suggests a particularly successful period for the gaming industry, with interest or production sharply decreasing in subsequent years.
 
 ### Ten years with the highest average critic score
@@ -49,7 +64,11 @@ LIMIT 10;
 ```
 
 Table:
-<img src="assets/img/video-game/Critic Score.png" width="1000" />
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="/assets/img/video-game/critic-score.png" title="critic score" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 ### Years where critics and users broadly agreed that games released were highly rated 
 SQL Code:
@@ -63,10 +82,19 @@ ORDER BY diff ASC
 ```
 
 Table:
-<img src="assets/img/video-game/Golden Year.png" width="1000" />
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="/assets/img/video-game/golden-year.png" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 #### Critic Score vs User Score
-<img src="assets/img/video-game/Critic Score vs User Score.png" width="1000" />
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="/assets/img/video-game/critic-score-vs-user-score.png" title="critic score vs user score" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 The graph shows a sharp decline in this difference in the early years, reaching a more stable level in the middle years before starting to rise again. This could indicate that initially, there was a large discrepancy between critic and user opinions, which then aligned more closely over time. However, the trend towards the end suggests that the gap between critic and user opinions is widening again. **This could suggest a divergence in the expectations or satisfaction levels of critics versus users in more recent years.**
 
 #### The project was completed on [Datacamp](https://app.datacamp.com/learn/projects/2013) 
