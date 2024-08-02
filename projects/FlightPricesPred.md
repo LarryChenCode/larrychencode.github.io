@@ -14,7 +14,7 @@ We picked this topic because the data was good and could tell us a lot through d
 The dataset “[Flight Price Prediction](https://www.kaggle.com/datasets/shubhambathwal/flight-price-prediction/data)” is used from Kaggle. Dataset contains information about flight booking options from the website Easemytrip for flight travel between India's top 6 metro cities. There are 300261 datapoints and 11 features in the cleaned dataset.
 
 ## Workflow:
-<img src="../images/fligh-price-pred/workflow.png?raw=true"/>
+<img src="../images/fligh-price-pred/workflow.png"/>
 
 ## EDA - Key Insights
 <img src="../images/fligh-price-pred/period-heatmap.png?raw=true"/>
@@ -52,7 +52,7 @@ ax.set_yticklabels(ax.get_yticklabels(), rotation=0)
 
 plt.show()
 ```
-<img src="../images/fligh-price-pred/price-vs-duration.png?raw=true"/>
+<img src="../images/fligh-price-pred/price-vs-duration.png"/>
 
 1. Price Distribution by Airline: Each airline has a different price range and distribution. For instance, Vistara appears to have a relatively broad price range, while airlines like IndiGo, SpiceJet, AirAsia show a denser concentration of points at the lower end of the price scale, indicating a larger number of more affordable flights.
 2. Flight Duration: There is a visible increase in price with the duration of the flight for some airlines, which is expected as longer flights generally cost more. However, this trend is not uniform across all airlines. Some, like AirAsia and IndiGo, seem to offer more consistently priced tickets across different flight durations.

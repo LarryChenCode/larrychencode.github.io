@@ -1,7 +1,7 @@
 # SQL Project on Video Games Analysis
 When Was the Golden Era of Video Games?
 ---
-<img src="../images/video-game/video-games-golden-era.gif?raw=true"/>
+<img src="../images/video-game/video-games-golden-era.gif"/>
 
 ## Introduction to the SQL Project on Video Games Analysis
 Dive into the $300 billion gaming market to explore if video games are improving or if their golden age has passed. This SQL project involves analyzing scores and sales of the top 400 video games since 1977 to 2017. Identify peak years in gaming popularity and examine sales trends by joining datasets and applying set theory, filtering, grouping, and sorting techniques. Gear up for a data-driven journey through gaming history!
