@@ -1,8 +1,9 @@
 title: Larry Chen
 logo: "/images/bio_photo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  It;s almost christmas 
-  I want some pizza  <br><br>
+  Data Scientist, CPA, and Ramen Enthusiast. 
+  <br>
+  <br>
   <a href="https://www.linkedin.com/in/larrychencpa/">View My LinkedIn Profile</a> 
   
 theme: jekyll-theme-minimal
