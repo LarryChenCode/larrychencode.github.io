@@ -1,4 +1,4 @@
-# Flight Prices Predication
+# Machine Learning: Flight Prices Predication
 Predicting Flight Prices using PySpark’s MLlib
 
 ---

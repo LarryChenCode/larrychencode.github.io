@@ -1,4 +1,4 @@
-# Web Scraping Amazon Kindle Prices
+# Python: Web Scraping Amazon Kindle Prices
 Track the things you like when their price drop
 
 ---

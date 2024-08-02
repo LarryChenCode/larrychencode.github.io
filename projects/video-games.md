@@ -1,4 +1,4 @@
-# SQL Project on Video Games Analysis
+# SQL Query: Video Games Analysis
 When Was the Golden Era of Video Games?
 ---
 <img src="../images/video-game/video-games-golden-era-cover.gif?raw=true"/>
