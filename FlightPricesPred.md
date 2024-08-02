@@ -2,12 +2,7 @@
 Predicting Flight Prices using PySpark’s MLlib
 
 ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="../images/fligh-price-pred/flight-price-pred.gif" title="project wrokflow" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+<img src="../images/fligh-price-pred/flight-price-pred.gif?raw=true"/>
 
 ## Goal:
 The goal of the analysis is to predict flight prices with different regression models using Spark’s MLLib.  We chose the topic, “Predicting Flight Prices by Airline, Source City, Destination City, Class and Others Using Multiple Machine Learning Models” 
@@ -19,24 +14,10 @@ We picked this topic because the data was good and could tell us a lot through d
 The dataset “[Flight Price Prediction](https://www.kaggle.com/datasets/shubhambathwal/flight-price-prediction/data)” is used from Kaggle. Dataset contains information about flight booking options from the website Easemytrip for flight travel between India's top 6 metro cities. There are 300261 datapoints and 11 features in the cleaned dataset.
 
 ## Workflow:
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="../images/fligh-price-pred/workflow.png" title="project wrokflow" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Project workflow
-</div>
+<img src="../images/fligh-price-pred/workflow.png?raw=true"/>
 
 ## EDA - Key Insights
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="../images/fligh-price-pred/period-heatmap.png" title="period heatmap" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Headmap
-</div>
+<img src="../images/fligh-price-pred/period-heatmap.png?raw=true"/>
 
 1. Early Booking Benefits: There is a clear trend that shows prices are generally lower when the tickets are booked well in advance. For instance, across all departure times, the prices are visibly lower on the right side of the heatmap, which corresponds to a higher number of days left before departure.
 2. Time of Day Price Variation: Different times of day have different pricing patterns. Evening and night tend to have higher average prices when booked last minute. However, as the days left increase, the prices for these times decrease. This suggests that for cheaper fares, one should avoid booking evening or night flights at the last minute.
@@ -71,12 +52,7 @@ ax.set_yticklabels(ax.get_yticklabels(), rotation=0)
 
 plt.show()
 ```
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="../images/fligh-price-pred/price-vs-duration.png" title="price vs duration" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+<img src="../images/fligh-price-pred/price-vs-duration.png?raw=true"/>
 
 1. Price Distribution by Airline: Each airline has a different price range and distribution. For instance, Vistara appears to have a relatively broad price range, while airlines like IndiGo, SpiceJet, AirAsia show a denser concentration of points at the lower end of the price scale, indicating a larger number of more affordable flights.
 2. Flight Duration: There is a visible increase in price with the duration of the flight for some airlines, which is expected as longer flights generally cost more. However, this trend is not uniform across all airlines. Some, like AirAsia and IndiGo, seem to offer more consistently priced tickets across different flight durations.
@@ -98,11 +74,7 @@ fig.show()
 ## Model Performance Analysis:
 Price Prediction Pattern: The model exhibits a linear correlation between actual and predicted flight prices, consistent up to approximately INR 70,000. However, there might be deviations beyond this price range.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="../images/fligh-price-pred/prediction-vs-actual.png" title="price vs duration" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+<img src="../images/fligh-price-pred/prediction-vs-actual.png?raw=true"/>
 
 ## Accuracy Metrics:
  - RMSE (Root Mean Square Error): 1520.00 - Indicates a relatively small average prediction error, suggesting good model precision.
