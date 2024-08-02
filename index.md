@@ -1,3 +1,13 @@
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-63M4ERY6GF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-63M4ERY6GF');
+</script>
+
 # Welcome to My Portfolio
 
 ---
@@ -12,12 +22,12 @@ This project showcases my skills and knowledge in managing an ETL process for Lo
 Predicting Flight Prices using PySpark’s MLlib
 
 ---
-#### [SQL Project on Video Games Analysis](/video-games.md)
+#### [SQL Project on Video Games Analysis](/projects/video-games.md)
 <img src="images/video-game/video-games-golden-era.gif?raw=true"/>
 When Was the Golden Era of Video Games?
 
 ---
-#### [Web Scraping Amazon Kindle Prices](/WebScraping.md)
+#### [Web Scraping Amazon Kindle Prices](/projects/WebScraping.md)
 <img src="images/video-game/video-games-golden-era.gif?raw=true"/>
 Track the things you like when their price drop
 
