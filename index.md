@@ -23,7 +23,7 @@ Predicting Flight Prices using PySpark’s MLlib
 
 ---
 #### [SQL Project on Video Games Analysis](/projects/video-games.md)
-<img src="./images/video-game/video-games-golden-era.gif"/>
+<img src="./images/video-game/video-games-golden-era-cover.gif?raw=true"/>
 When Was the Golden Era of Video Games?
 
 ---
